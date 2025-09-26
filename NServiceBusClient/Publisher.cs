@@ -30,6 +30,7 @@ public class Publisher : IHostedService
                 Source = "NServiceBus"
             };
             await _messageSession.Publish(testAEvent, cancellationToken: cancellationToken);
+            _logger.LogInformation("Message Sent: {MessageType} #{Count}", testAEvent.GetType().ToString(), i);
             await Task.Delay(5000, cancellationToken);
         }
     }

@@ -58,12 +58,12 @@ public class Program
                         });
                             
                         cfg.UseNServiceBusJsonSerializer();
-                            
+                        
                         // configure one queue for several consumers
                         cfg.ReceiveEndpoint("MassTransitClient", e =>
                         {
                             e.SetQuorumQueue(3);
-                            e.ConfigureConsumers(context);
+                            e.ConfigureConsumer<ConsumeNServiceBusTestA>(context);
                         });
                         
                     });
