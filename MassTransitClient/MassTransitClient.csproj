@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="MassTransit" Version="8.5.3" />
+      <PackageReference Include="MassTransit.Abstractions" Version="8.5.3" />
+      <PackageReference Include="MassTransit.RabbitMQ" Version="8.5.3" />
+      <PackageReference Include="MassTransit.Newtonsoft" Version="8.5.3" />
+      <PackageReference Include="Microsoft.Extensions.Hosting" Version="9.0.9" />
+      <PackageReference Include="MassTransit.Interop.NServiceBus" Version="8.5.3"/>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\MessageContracts\MessageContracts.csproj" />
+    </ItemGroup>
+
+</Project>

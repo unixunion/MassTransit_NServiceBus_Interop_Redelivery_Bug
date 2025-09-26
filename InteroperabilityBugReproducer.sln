@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageContracts", "MessageContracts\MessageContracts.csproj", "{F4FB28D1-F885-4DD7-BA14-C926849627B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MassTransitClient", "MassTransitClient\MassTransitClient.csproj", "{4D7CC791-5927-48AE-857C-A7155AE72833}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NServiceBusClient", "NServiceBusClient\NServiceBusClient.csproj", "{5270C42F-0C30-4F2E-8A3A-071A517F58E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4FB28D1-F885-4DD7-BA14-C926849627B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4FB28D1-F885-4DD7-BA14-C926849627B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4FB28D1-F885-4DD7-BA14-C926849627B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4FB28D1-F885-4DD7-BA14-C926849627B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D7CC791-5927-48AE-857C-A7155AE72833}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D7CC791-5927-48AE-857C-A7155AE72833}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D7CC791-5927-48AE-857C-A7155AE72833}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D7CC791-5927-48AE-857C-A7155AE72833}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5270C42F-0C30-4F2E-8A3A-071A517F58E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5270C42F-0C30-4F2E-8A3A-071A517F58E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5270C42F-0C30-4F2E-8A3A-071A517F58E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5270C42F-0C30-4F2E-8A3A-071A517F58E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
